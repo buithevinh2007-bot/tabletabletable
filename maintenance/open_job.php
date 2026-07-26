@@ -1,6 +1,6 @@
 <?php
-require '../config.php';
-require '../includes/auth.php';
+require '../config.php'; //from person 1
+require '../includes/auth.php'; //from person 1
 
 // Check if user is logged in and has Workshop Staff or Admin role
 require_role('Workshop Staff', 'Admin');
